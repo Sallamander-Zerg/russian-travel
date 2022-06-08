@@ -1,0 +1,12 @@
+.page{
+    width:100%;
+    font-family: Helvetica, Arial, sans-serif;
+    display: grid;
+    margin: 0;
+    background-color: #2A2C2F;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 52px repeat(1,1fr) 18px;
+    grid-template-areas:
+    "header header header header"
+    "content content content content";
+}

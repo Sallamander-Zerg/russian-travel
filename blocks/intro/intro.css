@@ -1,0 +1,19 @@
+.intro{
+    grid-area: intro;
+    display: flex;
+    padding: 2em;
+    align-items: start;
+    justify-content:start;
+    flex-direction: column;
+    margin-top: 92px;
+    width: 690px;
+    height: 429px;
+    padding: 0;
+}
+@media screen and (max-width: 320px) {
+    .intro{
+        margin-top: 64px;
+        width: 288px;
+        height: 754px;
+    }
+}

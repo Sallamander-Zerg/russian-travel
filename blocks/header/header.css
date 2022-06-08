@@ -1,0 +1,14 @@
+.header{
+    grid-area: header;
+    display: flex;
+    width: 1184px;
+    height: 52px;
+    justify-self: center;
+    align-self: center;
+}
+@media screen and (max-width: 320px) {
+    .header{
+        width: 288px;
+        height: 42px;
+    }
+}

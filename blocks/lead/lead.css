@@ -1,0 +1,17 @@
+.lead{
+    grid-area: lead;
+    display: flex;
+    padding: 2em;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
+    width: 984px;
+    height: 1005px;
+}
+@media screen and (max-width: 320px) {
+    .lead{
+        width: 320px;
+        height: 406px;
+    }
+}

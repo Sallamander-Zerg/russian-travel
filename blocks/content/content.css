@@ -1,0 +1,11 @@
+.content{
+    grid-area: content;
+    display: grid;
+    justify-self: center;
+    align-self: center;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr) ;
+    grid-template-areas: 
+    "lead lead lead"
+    "intro intro intro";
+}
