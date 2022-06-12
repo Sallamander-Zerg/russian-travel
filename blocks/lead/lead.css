@@ -8,8 +8,6 @@
     justify-content: center;
     flex-direction: column;
     padding: 0;
-    width: 984px;
-    height: 1005px;
 }
 @media screen and (max-width: 320px) {
     .lead{

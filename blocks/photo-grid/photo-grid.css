@@ -1,6 +1,4 @@
 .photo-grid{
-    width: 1184px;
-    height: 671px;
     grid-area: photo-grid;
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -8,4 +6,5 @@
     gap: 16px;
     justify-self: center;
     align-self: center;
+    margin-top: 92px;
 }

@@ -8,5 +8,6 @@
     grid-template-rows: 52px repeat(1,1fr) 18px;
     grid-template-areas:
     "header header header header"
-    "content content content content";
+    "content content content content"
+    "footer footer footer footer";
 }
