@@ -1,13 +1,21 @@
-.cover__title{
-    position: absolute;
-    width: 560px;
-    height: 152px;
-    font-weight: 900;
-    margin: 0;
-    text-align: center;
-    font-size: 72px;
-    line-height: 106%;
-    color: #FFFFFF; 
-    top: 6166px;
-    bottom: 477px;
+.cover__title {
+  width: 560px;
+  height: 152px;
+  font-weight: 900;
+  margin: 0;
+  text-align: center;
+  font-size: 72px;
+  line-height: 106%;
+  color: #ffffff;
+  opacity: 2;
+  z-index: 1;
+  position: relative;
+}
+@media screen and (max-width: 586px) {
+  .cover__title {
+    width: 288px;
+    height: 70px;
+    font-size: 32px;
+    line-height: 35px;
+  }
 }

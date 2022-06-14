@@ -1,15 +1,15 @@
-.places {
-  grid-area: places;
+.cover {
+  box-sizing: border-box;
+  margin-top: 92px;
+  grid-area: caver;
   display: flex;
   align-items: center;
   justify-content: center;
-  justify-self: center;
-  align-self: center;
   flex-direction: column;
-  margin-top: 92px;
 }
+
 @media screen and (max-width: 984px) {
-  .places {
-    margin-top: 80px;
+  .cover {
+    margin-top: 90px;
   }
 }

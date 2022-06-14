@@ -1,6 +1,12 @@
-.place__website{
-    grid-area: place__website;
-    margin-top: auto;
-    list-style-type: none;
-    padding: 0;
+.place__website {
+  grid-area: place__website;
+  margin-top: auto;
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+@media screen and (max-width: 586px) {
+  .place__website {
+    margin-top: 32px;
+  }
 }

@@ -1,9 +1,36 @@
-.lead__caption{
+.lead__caption {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  margin-right: auto;
+  color: #ffffff;
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+@media screen and (max-width: 1140px) {
+  .lead__caption {
     font-style: normal;
+    font-weight: 400;
     font-size: 10px;
-    line-height: 14px;  
-    margin-right: auto;
-    color:#FFFFFF;
-    margin-top: 8px;
-    margin-bottom: 0;
+    line-height: 14px;
+  }
+}
+@media screen and (max-width: 984px) {
+  .lead__caption {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    margin-left: 26px;
+  }
+}
+@media screen and (max-width: 586px) {
+  .lead__caption {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    margin-left: 26px;
+  }
 }

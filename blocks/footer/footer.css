@@ -1,9 +1,15 @@
-.footer{
-    grid-area: footer;
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    justify-self: center;
-    align-self: center;
-    flex-direction: row;
+.footer {
+  grid-area: footer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+@media screen and (max-width: 586px) {
+  .footer {
+    margin-left: 16px;
+    align-items: flex-start;
+    justify-content: start;
+    flex-direction: column;
+  }
 }

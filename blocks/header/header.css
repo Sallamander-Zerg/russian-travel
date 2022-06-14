@@ -1,14 +1,14 @@
-.header{
-    grid-area: header;
-    display: flex;
-    height: 52px;
-    justify-self: center;
-    align-self: center;
-    
+.header {
+  grid-area: header;
+  display: flex;
+  height: 52px;
+  justify-self: center;
+  align-self: center;
+  margin-top: 28px;
 }
-@media screen and (max-width: 320px) {
-    .header{
-        width: 288px;
-        height: 42px;
-    }
+
+@media screen and (max-width: 586px) {
+  .header {
+    margin-top: 16px;
+  }
 }
