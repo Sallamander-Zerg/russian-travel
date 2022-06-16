@@ -18,14 +18,14 @@
   .place {
     margin-left: 48px;
     margin-right: 48px;
-    gap:32px;
+    gap: 32px;
   }
 }
 @media screen and (max-width: 984px) {
   .place {
     margin-left: 24px;
     margin-right: 24px;
-    gap:28px;
+    gap: 28px;
   }
 }
 @media screen and (max-width: 586px) {
