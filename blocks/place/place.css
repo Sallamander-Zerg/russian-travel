@@ -4,6 +4,7 @@
   padding-left: 148px;
   margin-top: 80px;
   padding: 0;
+  gap: 48px;
   margin-left: 148px;
   margin-right: 148px;
   grid-template-areas:
@@ -17,16 +18,21 @@
   .place {
     margin-left: 48px;
     margin-right: 48px;
+    gap:32px;
   }
 }
 @media screen and (max-width: 984px) {
   .place {
     margin-left: 24px;
     margin-right: 24px;
+    gap:28px;
   }
 }
 @media screen and (max-width: 586px) {
   .place {
+    gap: 0;
+    margin-left: 0px;
+    margin-right: 0px;
     grid-template-columns: repeat(1, 1fr);
     grid-template-areas:
       "place__title"

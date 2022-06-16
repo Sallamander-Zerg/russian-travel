@@ -3,7 +3,6 @@
   display: grid;
   margin: 0;
   font-family: inter;
-  src: url(/Inter/Inter-VariableFont_slnt,wght.ttf);
   overflow: scroll;
   background-color: #2a2c2f;
   grid-template-columns: repeat(4, 1fr);
@@ -12,4 +11,8 @@
     "header header header header"
     "content content content content"
     "footer footer footer footer";
+}
+@font-face {
+  font-family: inter;
+  src: url(../../Inter/Inter.ttf);
 }
