@@ -1,11 +1,10 @@
-.lead{
-    grid-area: lead;
-    display: flex;
-    justify-self: center;
-    align-self: center;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 0;
+.lead {
+  grid-area: lead;
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0;
 }
-
