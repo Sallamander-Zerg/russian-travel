@@ -5,3 +5,21 @@
   height: 100%;
   object-fit: contain;
 }
+/* @media screen and (max-width: 984px) {
+  .photo-grid__item {
+    padding-left: 24px;
+  }
+  .photo-grid__item:nth-child(2n){
+    padding-left: 0;
+    padding-right: 24px;
+  }
+}
+@media screen and (max-width: 586px) {
+  .photo-grid__item {
+    padding-left: 16px;
+  }
+  .photo-grid__item:nth-child(2n){
+    padding-left: 0;
+    padding-right: 16px;
+  }
+} */

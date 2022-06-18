@@ -1,14 +1,17 @@
 .header {
   grid-area: header;
-  display: flex;
-  height: 52px;
+  display: grid;
+  max-width: 1184px;
+  width: 100%;
   justify-self: center;
-  align-self: center;
   margin-top: 28px;
+  grid-template-rows: repeat(1,auto);
+  grid-template-areas: "header__logo header__lang-links";
 }
 
 @media screen and (max-width: 586px) {
   .header {
+    max-width: 288px;
     margin-top: 16px;
   }
 }

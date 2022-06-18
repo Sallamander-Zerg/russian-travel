@@ -8,9 +8,11 @@
 </head>
 <body class="page">
   <header class="header">
-  <img class="header__logo" src="images/logo.png" alt="лого">
+  <img class="header__logo" src="images/logo.svg" alt="лого">
+  <ul class="header__lang-links">
   <a class="header__lang-link" href="#">Ru</a>
   <a class="header__lang-link" href="#">En</a>
+  </ul>
   </header>
   <main class="content">
   <section class="lead">
@@ -23,11 +25,11 @@
     <h2 class="intro__title">Чего мы там не видели?</h2>
     <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
     <ul class="intro__list">
-      <li>Часовых поясов 11</li>
-      <li>Объектов природного наследия ЮНЕСКО 12</li>
-      <li>Объектов культурного наследия ЮНЕСКО 16</li>
-      <li>Природных заповедников 105</li>
-      <li>Аэропортов 241</li>
+      <li>Часовых поясов <span>11</span></li>
+      <li>Объектов природного наследия ЮНЕСКО <span>12</span></li>
+      <li>Объектов культурного наследия ЮНЕСКО <span>16</span></li>
+      <li>Природных заповедников <span>105</span></li>
+      <li>Аэропортов <span>241</span></li>
     </ul>
   </section>
   <section class="photo-grid">
@@ -47,10 +49,10 @@
   <section class="places">
     <div class="place">
     <h2 class="place__title">Куршская коса</h2>
-    <ul class="place__website">
-      <li class="place__url-heading">URL</li>
-      <li><a class="place__link" href="http://park-kosa.ru">park-kosa.ru</a></li>
-    </ul>
+    <div class="place__website">
+      <p class="place__url-heading">url</p>
+      <a class="place__link" href="http://park-kosa.ru">park-kosa.ru</a>
+    </div>
     <img class="place__image" src="images/place__image.png" alt="берег">
     <div class="place__text">
     <p class="place__paragraph ">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. Уникальная природная зона на краю российского анклава.</p>
@@ -59,10 +61,10 @@
     </div>
     <div class="place">
       <h2 class="place__title">Кольский</h2>
-      <ul class="place__website">
-        <li class="place__url-heading">URL</li>
-        <li><a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National Geographic</a></li>
-      </ul>
+      <div class="place__website">
+        <p class="place__url-heading">url</p>
+        <a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National Geographic</a>
+      </div>
       <img class="place__image" src="images/place__image(2).png" alt="горы">
       <div class="place__text">
       <p class="place__paragraph ">Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой на юг — 
@@ -73,10 +75,10 @@
       </div>
       <div class="place">
         <h2 class="place__title">Алтай</h2>
-        <ul class="place__website">
-          <li class="place__url-heading">URL</li>
-          <li><a class="place__link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822">Facebook</a></li>
-        </ul>
+        <div class="place__website">
+          <p class="place__url-heading">url</p>
+          <a class="place__link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822">Facebook</a>
+        </div>
         <img class="place__image" src="images/place__image(3).png" alt="лес">
         <div class="place__text">
         <p class="place__paragraph ">Алтай — одно из красивейших мест в России. 
@@ -86,10 +88,10 @@
         </div>
         <div class="place">
           <h2 class="place__title">Зимний Байкал</h2>
-          <ul class="place__website">
-            <li class="place__url-heading">URL</li>
-            <li><a class="place__link" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a></li>
-          </ul>
+          <div class="place__website">
+            <p class="place__url-heading">url</p>
+            <a class="place__link" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
+          </div>
           <img class="place__image" src="images/place__image(4).png" alt="лёд в близи">
           <div class="place__text">
           <p class="place__paragraph ">Всем известен Байкал как крупнейшее озеро 
@@ -101,8 +103,8 @@
           <div class="place">
             <h2 class="place__title">Карелия</h2>
             <ul class="place__website">
-              <li class="place__url-heading">URL</li>
-              <li><a class="place__link" href="http://vodlozero.ru">http://vodlozero.ru/</a></li>
+              <p class="place__url-heading">url</p>
+              <a class="place__link" href="http://vodlozero.ru">http://vodlozero.ru/</a>
             </ul>
             <img class="place__image" src="images/place__image(5).png" alt="озеро">
             <div class="place__text">
@@ -120,11 +122,13 @@
   </section>
   </main>
   <footer class="footer">
+    <nav class="footer__links">
     <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
     <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
     <a class="footer__link" href="https://rasp.yandex.ru">Расписание</a>
     <a class="footer__link" href="https://calendar.yandex.ru">Календарь</a>
     <a class="footer__link" href="https://travel.yandex.ru">Путешествия</a>
+    </nav>
     <p class="footer__copyright">&copy; 2022. Василий Горбунов</p>
   </footer>
 </body> 

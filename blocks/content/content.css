@@ -1,12 +1,12 @@
 .content {
-  margin-top: 56px;
-  margin-bottom: 92px;
   max-width: 1280px;
   grid-area: content;
   display: grid;
   justify-self: center;
   align-self: center;
-  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 92px;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(5,auto); 
   grid-template-areas:
     "lead lead lead"
     "intro intro intro"

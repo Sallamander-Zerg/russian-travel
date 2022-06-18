@@ -5,31 +5,17 @@
   color: #ffffff;
   text-decoration: none;
   margin-right: 18px;
-  margin-top: 22px;
-  margin-left: 931px;
 }
 .header__lang-link:last-of-type {
   margin-right: 0;
-  margin-left: 0;
 }
-.header__lang-link:focus {
+.header__lang-link:active {
   text-decoration: underline;
   color: #ffffff;
-}
-@media screen and (max-width: 1140px) {
-  .header__lang-link {
-    margin-left: 675px;
-  }
-}
-@media screen and (max-width: 984px) {
-  .header__lang-link {
-    margin-left: 467px;
-  }
 }
 @media screen and (max-width: 586px) {
   .header__lang-link {
     font-size: 18px;
     line-height: 20px;
-    margin-left: 84px;
   }
 }

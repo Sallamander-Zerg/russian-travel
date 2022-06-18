@@ -1,0 +1,12 @@
+.header__lang-links {
+  grid-area: header__lang-links;
+  flex-direction: row;
+  text-decoration: none;
+  padding: 0;
+  align-self: end;
+  justify-self: end;
+  margin-bottom: 6px;
+  margin-top: 18px;
+}
+
+  

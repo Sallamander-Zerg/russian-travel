@@ -1,9 +1,9 @@
 .place__text {
-  margin-top: 48px;
   grid-area: place__text;
 }
 @media screen and (max-width: 586px) {
   .place__text {
+    margin-top: 32px;
     margin-left: 16px;
     margin-right: 16px;
   }
