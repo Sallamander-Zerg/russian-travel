@@ -2,7 +2,6 @@
   grid-area: footer__links;
   display: flex;
   flex-direction: row;
-  padding: 0;
   align-self: start;
   justify-self: start;
   margin: 0;
