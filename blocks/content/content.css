@@ -6,7 +6,7 @@
   align-self: center;
   margin-bottom: 92px;
   grid-template-columns: repeat(3, auto);
-  grid-template-rows: repeat(5,auto); 
+  grid-template-rows: repeat(5, auto);
   grid-template-areas:
     "lead lead lead"
     "intro intro intro"
