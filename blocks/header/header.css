@@ -5,7 +5,7 @@
   width: 100%;
   justify-self: center;
   margin-top: 28px;
-  grid-template-rows: repeat(1,auto);
+  grid-template-rows: repeat(1, auto);
   grid-template-areas: "header__logo header__lang-links";
 }
 

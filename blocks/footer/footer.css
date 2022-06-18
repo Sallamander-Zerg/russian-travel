@@ -4,7 +4,7 @@
   max-width: 1184px;
   width: 100%;
   justify-self: center;
-  grid-template-rows: repeat(1,auto);
+  grid-template-rows: repeat(1, auto);
   grid-template-areas: "footer__links footer__copyright";
 }
 @media screen and (max-width: 586px) {
@@ -15,9 +15,9 @@
     justify-content: start;
     justify-self: start;
     align-self: start;
-    grid-template-columns: repeat(1,auto);
-    grid-template-areas: 
-    "footer__links"
-    "footer__copyright";
+    grid-template-columns: repeat(1, auto);
+    grid-template-areas:
+      "footer__links"
+      "footer__copyright";
   }
 }
