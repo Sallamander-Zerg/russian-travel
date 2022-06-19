@@ -1,4 +1,4 @@
-# Проект: Путешествие по России
+# Проект: https://sallamander-zerg.github.io/russian-travel/
 
 ### Обзор
 * Интро

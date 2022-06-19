@@ -1,5 +1,6 @@
 .content {
   max-width: 1280px;
+  min-width: 320px;
   width: 100%;
   grid-area: content;
   display: grid;
@@ -27,7 +28,6 @@
 }
 @media screen and (max-width: 586px) {
   .content {
-    max-width: 320px;
     margin-bottom: 64px;
   }
 }

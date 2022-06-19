@@ -2,6 +2,7 @@
   grid-area: header;
   display: grid;
   max-width: 1184px;
+  min-width: 288px;
   width: 100%;
   justify-self: center;
   margin-top: 28px;
@@ -11,7 +12,6 @@
 
 @media screen and (max-width: 586px) {
   .header {
-    max-width: 288px;
     margin-top: 16px;
   }
 }
