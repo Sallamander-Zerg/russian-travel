@@ -1,5 +1,6 @@
 .lead__subtitle {
   display: flex;
+  align-items: start;
   font-size: 30px;
   line-height: 120%;
   font-weight: 400;
