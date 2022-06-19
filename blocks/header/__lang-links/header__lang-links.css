@@ -1,7 +1,8 @@
 .header__lang-links {
   grid-area: header__lang-links;
+  display: flex;
   flex-direction: row;
-  text-decoration: none;
+  list-style-type: none;
   padding: 0;
   align-self: end;
   justify-self: end;

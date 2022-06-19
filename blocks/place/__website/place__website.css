@@ -1,5 +1,9 @@
 .place__website {
   grid-area: place__website;
+  display: flex;
+  max-width: 288px;
+  width: 100%;
+  flex-direction: column;
   margin-top: auto;
   list-style-type: none;
   padding: 0;
