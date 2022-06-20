@@ -1,5 +1,4 @@
 .lead {
-  margin-top: 56px;
   grid-area: lead;
   display: flex;
   justify-self: center;
