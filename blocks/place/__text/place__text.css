@@ -1,10 +1,13 @@
 .place__text {
   grid-area: place__text;
+  width: 100%;
+  display: grid;
+  row-gap: 25px;
+  grid-auto-rows: min-content;
+  grid-auto-columns: minmax(min-content, max-content);
 }
 @media screen and (max-width: 586px) {
   .place__text {
-    margin-top: 32px;
-    margin-left: 16px;
-    margin-right: 16px;
+    padding: 0 16px 0;
   }
 }
