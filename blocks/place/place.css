@@ -29,7 +29,7 @@
     margin-left: 24px;
     margin-right: 24px;
     gap: 28px;
-    grid-template-columns: 340px 1rf;
+    grid-template-columns: 340px 1fr;
   }
 }
 @media screen and (max-width: 586px) {
