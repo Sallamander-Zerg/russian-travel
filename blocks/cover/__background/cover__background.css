@@ -11,7 +11,7 @@
   flex-direction: column;
   text-decoration: none;
   object-fit: contain;
-  background-image: url(../../../images/cover__background.png);
+  background-image: url(../../../images/cover__background.svg);
   position: relative;
 }
 .cover__background::before {
