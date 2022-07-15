@@ -3,19 +3,19 @@
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url(../fonts/Inter/static/Inter-Regular.ttf);
+    src: url(./Inter/Inter_Hinted_for_Windows/Inter-Regular.woff2);
   }
   @font-face {
     font-family: "Inter";
     font-style: normal;
     font-weight: 700;
     font-display: swap;
-    src: url(../fonts/Inter/static/Inter-Bold.ttf);
+    src: url(./Inter/Inter_Hinted_for_Windows/Inter-Bold.woff2);
   }
   @font-face {
     font-family: "Inter";
     font-style: normal;
     font-weight: 900;
     font-display: swap;
-    src: url(../fonts/Inter/static/Inter-Black.ttf);
+    src: url(./Inter/Inter_Hinted_for_Windows/Inter-Black.woff2);
   }

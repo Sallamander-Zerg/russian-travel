@@ -1,9 +1,7 @@
 .place {
   display: grid;
   grid-template-columns: 460px 1fr;
-  padding-left: 148px;
   margin-top: 80px;
-  padding: 0;
   gap: 48px 40px;
   align-self: center;
   margin-left: 148px;
@@ -19,7 +17,7 @@
   .place {
     margin-left: 48px;
     margin-right: 48px;
-    gap: 32px;
+    gap:48px 32px;
     grid-template-columns: 440px 1fr;
   }
 }
@@ -28,7 +26,7 @@
     margin-top: 73px;
     margin-left: 24px;
     margin-right: 24px;
-    gap: 28px;
+    gap:48px 28px;
     grid-template-columns: 340px 1fr;
   }
 }
